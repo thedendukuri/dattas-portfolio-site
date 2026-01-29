@@ -3,23 +3,10 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:wght@300;400;500;600;700&display=swap');
-
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
 @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
-
-/* Notable CSS class */
-
-.notable-regular {
-  font-family: "Notable", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 
 /* Portfolio Design System - Navy & Gold Theme */
 
@@ -158,6 +145,13 @@
     --shadow-xl: 16px 16px 0px 0px #ffffff;
     --shadow-2xl: 24px 24px 0px 0px #ffffff;
   }
+
+  /* Notable utility class */
+  .notable-regular {
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
 
 @layer base {
@@ -171,7 +165,7 @@
   }
 
   h1, h2, h3, .font-display {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Notable', sans-serif;
   }
 
   /* Snap scroll container */
