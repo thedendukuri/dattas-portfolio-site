@@ -91,9 +91,10 @@ export function HomeSection() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed"
         >
-          MBA candidate at UMass Lowell with expertise in financial modeling, data analytics, 
-          and process optimization. Passionate about leveraging data-driven insights to drive 
-          business growth and operational excellence.
+          Hello! My name is Datta Gopal Dendukuri. I am an MBA Student at UMass Lowell with expertise in financial modeling and data analytics. 
+          Combined with my undergrad degree and 3 years of experience ( 2 years as an unpaid intern and 1 year as a Banker at TD Bank, I've grown 
+          passionate about leveraging data-driven insights to drive business growth. I am currently looking for internship opportunities to further
+          my professional growth.
         </motion.p>
 
         {/* Social Links */}
@@ -113,7 +114,7 @@ export function HomeSection() {
             <Linkedin className="w-6 h-6" />
           </a>
           <a
-            href="https://github.com/ddendukuri"
+            href="https://github.com/thedendukuri"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card border border-border hover:border-gold hover:text-gold transition-colors"
