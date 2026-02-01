@@ -162,7 +162,6 @@
   body {
     @apply bg-background text-foreground;
     color: hsl(0 0% 0%);
-    font-family: 'Notable', sans-serif;
   }
 
   h1, h2, h3, .font-display {
