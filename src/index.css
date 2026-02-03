@@ -160,8 +160,15 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background;
+  }
+
+  :root body {
     color: hsl(0 0% 0%);
+  }
+
+  .dark body {
+    color: hsl(0 0% 100%);
   }
 
   h1, h2, h3, .font-display {
