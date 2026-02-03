@@ -5,7 +5,7 @@ const experiences = [
   {
     title: "Operations Specialist",
     company: "NEST",
-    location: "Lowell, MA",
+    location: "Littleton, MA",
     period: "Jan 2023 – Present",
     highlights: [
       "Managed QuickBooks for invoicing, billing, and accounts receivable with 98% accuracy",
@@ -17,7 +17,7 @@ const experiences = [
   {
     title: "Retail Banker I",
     company: "TD Bank",
-    location: "Lowell, MA",
+    location: "Woburn, MA",
     period: "Sep 2024 – Apr 2025",
     highlights: [
       "Managed Salesforce CRM and Odyssey for client portfolio tracking",
