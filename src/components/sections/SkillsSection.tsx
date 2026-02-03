@@ -33,14 +33,6 @@ const certifications = [
     title: "Bloomberg Markets Certification",
     issuer: "Bloomberg",
   },
-  {
-    title: "Salesforce Agentforce Specialist",
-    issuer: "Salesforce",
-  },
-  {
-    title: "Google Data Analytics Certificate",
-    issuer: "Google",
-  },
 ];
 
 const containerVariants = {

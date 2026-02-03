@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { Mail, Phone, MapPin, Linkedin, Github, Send, Loader2, ExternalLink } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, Send, Loader2, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -199,12 +199,6 @@ export function ContactSection() {
                   </div>
                   <span>(978) 494-3987</span>
                 </a>
-                <div className="flex items-center gap-3 text-muted-foreground">
-                  <div className="p-2 rounded-lg bg-card border border-border">
-                    <MapPin className="w-5 h-5" />
-                  </div>
-                  <span>Lowell, MA</span>
-                </div>
               </div>
             </div>
 
