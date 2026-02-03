@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { ThemeProvider } from "@/hooks/useTheme";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { NavDots } from "@/components/NavDots";
+import { TopNav } from "@/components/TopNav";
 import { HomeSection } from "@/components/sections/HomeSection";
 import { ExperienceSection } from "@/components/sections/ExperienceSection";
 import { ProjectsSection } from "@/components/sections/ProjectsSection";
@@ -46,6 +47,7 @@ function Portfolio() {
   return (
     <div className="relative">
       <ThemeToggle />
+      <TopNav onNavigate={navigateToSection} />
       <NavDots
         sections={sections}
         currentSection={currentSection}
