@@ -4,14 +4,15 @@ import { Briefcase, GraduationCap, Calendar, MapPin } from "lucide-react";
 const experiences = [
   {
     title: "Operations Specialist",
-    company: "NEST",
+    company: "NEST Canteen",
     location: "Littleton, MA",
     period: "Jan 2023 – Present",
     highlights: [
-      "Managed QuickBooks for invoicing, billing, and accounts receivable with 98% accuracy",
-      "Developed an Admin Portal using React.js for internal analytics",
-      "Achieved 130% revenue growth through donor data management and email automation",
-      "Led POS migration to Toast, reducing vendor fees by 15%",
+      "Built and scaled the restaurant from launch through daily operations, leading end-to-end operations including vendor sourcing, pricing strategy, inventory management, cash flow tracking, & invoice generation using QuickBooks",
+      "Supports capacity planning & supply chain analytics by forecasting inventory needs, tracking vendor lead times & modeling weekly demand",
+      "Analyzes data from Toast for regular trends analysis using Excel; designed & tracked weekly financial metrics (revenue, margins, spend)",
+      "Currently building a lightweight admin portal using React.js, Google Firebase, & Python to automate reporting, reconciliation, & receipt/email generation",
+      "Integrated a new POS system and revenue channels that increased monthly revenues by approximately 130%",
     ],
   },
   {
@@ -20,42 +21,41 @@ const experiences = [
     location: "Woburn, MA",
     period: "Sep 2024 – Apr 2025",
     highlights: [
-      "Managed Salesforce CRM and Odyssey for client portfolio tracking",
-      "Cross-sold financial products including credit cards and savings accounts",
-      "Handled wire transfers, notarizations, and new account openings",
+      "Supported client account servicing & sales activities using Odyssey, Salesforce Retail, and Encore",
+      "Met quarterly sales and referral targets through cross-selling accounts, CDs, and loan referrals",
+      "Maintained client relationships and ensured regulatory compliance in daily transactions",
     ],
   },
   {
     title: "Building Manager",
-    company: "University Crossing, UMass Lowell",
+    company: "University of Massachusetts, Lowell",
     location: "Lowell, MA",
     period: "Sep 2021 – Dec 2022",
     highlights: [
-      "Coordinated 50+ campus events and managed facility operations",
-      "Led crisis response procedures during emergency situations",
-      "Supervised student workers and maintained building security",
+      "Coordinated event logistics and daily facility operations",
+      "Provided AV and on-site support for university events and external guests",
     ],
   },
 ];
 
 const education = [
   {
-    degree: "MBA in Finance",
-    school: "UMass Lowell",
+    degree: "M.B.A. Finance",
+    school: "University of Massachusetts, Lowell",
     status: "In Progress",
-    expected: "Expected Dec 2026",
+    expected: "Jan 2025 – Dec 2026 | 3.35 GPA",
   },
   {
     degree: "Graduate Certificate in Financial Management",
-    school: "UMass Lowell",
+    school: "University of Massachusetts, Lowell",
     status: "Completed",
-    expected: "",
+    expected: "Jan 2025 – May 2025 | 3.20 GPA",
   },
   {
-    degree: "B.Sc. Business Administration",
-    school: "UMass Lowell",
+    degree: "B.Sc. Business Administration (MIS & Finance)",
+    school: "University of Massachusetts, Lowell",
     status: "Completed",
-    expected: "MIS & Finance Concentration",
+    expected: "Sep 2019 – Aug 2024",
   },
 ];
 
